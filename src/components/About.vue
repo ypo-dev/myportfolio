@@ -6,10 +6,23 @@
         <div
           style="margin: 0; padding: 0"
           class="col-lg-6 col-md-12 col-sm-12 text-center"
-          data-aos="fade-right"
-          data-aos-duration="1000"
         >
-          <img src="@/assets/images/me.png" :class="aboutImg" alt="..." />
+          <div data-aos="fade-right" data-aos-duration="1000">
+            <img src="@/assets/images/me.png" :class="aboutImg" alt="..." />
+          </div>
+          <div class="flex-container text-center">
+            <div :class="IconCenter" data-aos="fade-up" data-aos-duration="1000">
+              <a target="_blank" :class="IconSocial" href="https://github.com/ypo-dev/"><i class="fab fa-github"></i></a>
+            </div>
+            <div :class="IconCenter" data-aos="fade-up" data-aos-duration="1300">
+              <a target="_blank" :class="IconSocial" href="https://twitter.com/yanpaing21"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div :class="IconCenter" data-aos="fade-up" data-aos-duration="1600">
+              <a target="_blank" :class="IconSocial" href="https://www.linkedin.com/in/yanpaingoo1998/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
         </div>
         <div
           style="margin: 0; padding: 0"
@@ -40,6 +53,8 @@ export default {
       AboutTextSecond: "AboutTextSecond",
       aboutMail: "aboutMail",
       aboutICON: "aboutICON",
+      IconSocial: "IconSocial",
+      IconCenter: "IconCenter",
     };
   },
 };
@@ -82,5 +97,24 @@ export default {
   margin-right: 5%;
   margin-bottom: 25%;
   text-align: left;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+.IconSocial {
+  font-size: 30px;
+  color: #fff;
+}
+
+.IconSocial:hover {
+  font-size: 30px;
+  color: #000;
+}
+
+.IconCenter{
+
+  margin-left: 3%;
+  margin-right: 3%;
 }
 </style>

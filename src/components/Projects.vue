@@ -6,7 +6,7 @@
         <div :class="cardBox" data-aos="fade-up"
         data-aos-duration="1000">
           <img
-            src="@/assets/images/moviesproject.png"
+            src="@/assets/images/auro.png"
             class="card-img-top"
             alt="..."
           />
@@ -19,7 +19,7 @@
         <div :class="cardBox" data-aos="fade-up"
         data-aos-duration="1300">
           <img
-            src="@/assets/images/auro.png"
+            src="@/assets/images/moviesproject.png"
             class="card-img-top"
             alt="..."
           />
@@ -74,9 +74,9 @@ export default {
   margin-bottom: 10%;
   margin-left: 5%;
   margin-right: 5%;
-  box-shadow: 5px 5px 0px 4px rgba(214, 214, 214, 0.13);
-  -webkit-box-shadow: 5px 5px 0px 4px rgba(214, 214, 214, 0.13);
-  -moz-box-shadow: 5px 5px 0px 4px rgba(214, 214, 214, 0.13);
+  box-shadow: 3px 5px 0px 4px rgba(214, 214, 214, 0.13);
+  -webkit-box-shadow: 3px 5px 0px 4px rgba(214, 214, 214, 0.13);
+  -moz-box-shadow: 3px 5px 0px 4px rgba(214, 214, 214, 0.13);
 }
 .ViewLink{
     margin-left: 3%;
